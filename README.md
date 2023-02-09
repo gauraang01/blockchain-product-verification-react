@@ -4,6 +4,8 @@ as a registry of all products produced by the company. This smart contract will
 be made publicly accessible, allowing any individual to verify the authenticity
 of a product by checking its presence on the corresponding smart contract.
 <br>
+<h3>Link to a demo site:</h3> 
+<a href="https://productverify.netlify.app/">productverify</a>
 <h3>Important</h3>
 <ul>
     <li>To access the functionalities of the project you must have a wallet extension in your browser</li>
