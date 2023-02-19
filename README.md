@@ -10,22 +10,22 @@ The website is built using modern web development technologies, with the fronten
 
 This project provides a secure and reliable solution for product authenticity verification, enabling companies to build trust with their customers and reduce the risks of counterfeit products.
 
-##Link to a demo site:
+## Link to a demo site:
 [productverify](https://productverify.netlify.app/)
 
 # Important
-    * To access the functionalities of the project you must have a wallet extension in your browser
-    * Only the owner of a smart contract can add products to it's smart contract
-    * The products can be read by anyone
-    * You can enter id of a single product, or a list separated by comma, the id's should be integer value
+ * To access the functionalities of the project you must have a wallet extension in your browser
+ * Only the owner of a smart contract can add products to it's smart contract
+ * The products can be read by anyone
+ * You can enter id of a single product, or a list separated by comma, the id's should be integer value
 
 # Installation
-    * Clone the repository
-    * Run npm install
-    * Run npm start
+ * Clone the repository
+ * Run npm install
+ * Run npm start
     
 # Usage
-    * To create a smart contract for your organization visit: CreateContract page
-    * To fetch smart contract address linked to a wallet address visit: GetContract page
-    * To add products to your smart contract visit: AddProducts page
-    * To verify the authenticity of a product visit: VerifyProduct page
+ * To create a smart contract for your organization visit: CreateContract page
+ * To fetch smart contract address linked to a wallet address visit: GetContract page
+ * To add products to your smart contract visit: AddProducts page
+ * To verify the authenticity of a product visit: VerifyProduct page
