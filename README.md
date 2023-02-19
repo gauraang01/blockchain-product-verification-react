@@ -1,3 +1,6 @@
+<h2> Product Verifier </h2>
+A website that allows users to verify the authenticity of their products
+
 <h2>Description</h2>
 Companies may register to receive a customized smart contract, which will serve
 as a registry of all products produced by the company. This smart contract will
