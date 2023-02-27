@@ -1,4 +1,5 @@
 import React, {useState } from 'react'
+import QRScanner from './QRScanner';
 
 const VerifyProduct = ({ provider, central }) => {
 
@@ -6,6 +7,11 @@ const VerifyProduct = ({ provider, central }) => {
     const [productId, setProductId] = useState('');
 
     const [productStatus, setProductStatus] = useState(null);
+    const [scannedData, setScannedData] = useState(null);
+
+    const handleScan = (data) => {
+        setScannedData(data);
+    }
 
     function showErrorMessage(error) {
         alert(`An error occurred while connecting to MetaMask: ${error.message}`);
@@ -42,6 +48,9 @@ const VerifyProduct = ({ provider, central }) => {
                 <div className='form__content'>
                     <label className='form__label'>Enter Product id</label>
                     <input type="text"  className='form__input' value={productId} onChange={handleInput2Change} />
+                </div>
+                <div className='form__content'>
+                    {scannedData ? <p>Scanned data: {scannedData}</p> : <QRScanner onScan={handleScan} />}
                 </div>
                 <button className='button__toggle form__button' onClick={checkProduct}>Verify</button>
                 {productStatus && <p>Result: {productStatus}</p>}
